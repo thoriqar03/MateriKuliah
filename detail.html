@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TRR Page - HTML </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+ 
+  <nav class="navbar navbar-custom sticky-top bg-white">
+<div class="container-fluid px-4 d-flex align-items-center justify-content-between">
+<div class="d-flex align-items-center gap-4">
+<a href="index.html" class="brand">TRR Page</a>
+<div class="d-flex gap-3">
+<a href="index.html" class="nav-link active">Home</a>
+<a href="detail.html" class="nav-link active">Materi</a>
+
+</div>
+</div>
+<a href="#" onclick="return false;" title="Download" style="display:flex;align-items:center;color:#3949ab;opacity:0.75;transition:opacity 0.2s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.75'">
+  <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 3v13M7 11l5 5 5-5"/><path d="M5 21h14"/>
+  </svg>
+</a>
+</div>
+</nav>
+
+
+<main>
+<div class="container-fluid px-4 detail-main">
+
+      <div class="breadcrumb-custom">
+        <a href="index.html">Materi Kuliah</a>
+        <svg width="14" height="14" fill="none" stroke="#9ca3af" stroke-width="2" viewBox="0 0 24 24">
+          <polyline points="9 18 15 12 9 6"/>
+        </svg>
+        <span class="breadcrumb-current">HTML</span>
+      </div>
+
+    
+      <h1 class="detail-title">HTML</h1>
+
+      
+      <div class="section-title">Deskripsi Materi</div>
+      <p class="section-text">HTML adalah singkatan dari Hypertext Markup Language. Jika diambil pengertian dari masing-masing istilah tersebut, maka Hypertext merupakan dokumen yang berisi tautan (link), yang memungkinkan pengguna terhubung ke halaman yang lain. 
+      </p>
+      <p class="section-text">Sedangkan Markup Language merupakan sekumpulan code yang dipahami oleh komputer, yang nantinya menghasilkan suatu informasi. 
+      </p>
+      <p class="section-text">
+        Dengan demikian, bila pengertian dari kedua istilah tersebut digabungkan, maka HTML adalah bahasa markup/markup languange yang digunakan untuk membuat struktur halaman website.
+      </p>
+
+      <p class="section-text">Dengan memahami dasar-dasar coding HTML, Anda dapat membuat konten web yang terorganisir dengan baik dan mudah diakses. Pada bagian ini, kita akan menjelajahi pengertian HTML, sejarah singkatnya, dan alasan untuk mempelajarinya sebagai langkah pertama dalam membangun situs web.</p>
+
+      <p class="section-text">Sering kali, orang menganggap HTML sebagai bahasa pemrograman. Ini adalah salah kaprah. HTML adalah bahasa markup, bukan bahasa pemrograman. Bahasa pemrograman, seperti Python, JavaScript, atau C++ digunakan untuk menulis logika serta membuat program yang bisa melakukan perhitungan, pengambilan keputusan, dan manipulasi data.</p>
+
+      <p class="section-text">Sebaliknya, HTML hanya digunakan untuk menentukan struktur dan tata letak konten di halaman web. HTML tidak memiliki kemampuan untuk membuat keputusan logis atau melakukan operasi aritmetika. Ia hanya menyediakan kerangka untuk konten yang akan ditampilkan di browser.</p>
+
+      <div class="section-title">Sejarah Singkat HTML</div>
+      <p class="section-text">HTML pertama kali diperkenalkan oleh Tim Berners-Lee pada tahun 1991. Versi pertama HTML (HTML 1.0) sangat sederhana. Seiring waktu, HTML berkembang menjadi HTML5 yang kita gunakan saat ini dengan banyak fitur baru dan peningkatan.</p>
+
+      <div class="section-title">Mengapa HTML Penting dalam Pengembangan Web?</div>
+      <p class="section-text">HTML adalah fondasi dari semua halaman web. Tanpa HTML, tidak ada struktur yang bisa diatur untuk menampilkan konten pada web. HTML memungkinkan kita untuk membuat teks, gambar, video, form, tabel, dan banyak elemen lainnya yang diperlukan untuk membangun website berfungsi penuh.</p>
+
+      <div class="section-title">Struktur Dasar HTML</div>
+      <p class="section-text">Struktur dasar HTML membentuk fondasi dari setiap halaman web. Dengan memahami elemen-elemen inti dan cara menyusunnya, kamu akan dapat membuat halaman web yang terorganisir dan fungsional.</p>
+
+      <p class="section-text">HTML menggunakan berbagai tag untuk membuat elemen, seperti judul, paragraf, gambar, dan tautan. Setiap dokumen HTML dimulai dengan deklarasi doctype dan diikuti oleh elemen-elemen penting, seperti &lt;html&gt;, &lt;head&gt;, dan &lt;body&gt;.</p>
+
+      <p class="section-text">Pada bagian ini, kita akan mempelajari struktur dasar dalam coding HTML lebih lanjut, yang mencakup tag-tag tersebut dan fungsinya untuk membentuk sebuah halaman web.</p>
+
+      <div class="section-title">Struktur Dasar Dokumen HTML</div>
+      <p class="section-text">Setiap dokumen HTML memiliki struktur dasar yang perlu diikuti. Berikut adalah contoh struktur dasar dari dokumen HTML.</p>
+      <p class="section-text">Contoh :</p>
+      <pre style="background:#f3f4f6; border-radius:8px; padding:16px; font-size:13px; overflow-x:auto; margin-bottom:16px;"><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Judul Halaman&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Selamat Datang di Website Saya&lt;/h1&gt;
+    &lt;p&gt;Ini adalah paragraf pertama saya.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+      <p class="section-text">Berikut adalah penjelasan dari struktur dasar dokumen HTML tersebut.</p>
+      <p class="section-text"><code style="background:#f3f4f6; padding:2px 6px; border-radius:4px;">&lt;!DOCTYPE html&gt;</code> : Ini memberi tahu browser bahwa dokumen ini menggunakan HTML5.</p>
+      <p class="section-text"><code style="background:#f3f4f6; padding:2px 6px; border-radius:4px;">&lt;html&gt;</code> : Elemen root dari dokumen HTML.</p>
+      <p class="section-text"><code style="background:#f3f4f6; padding:2px 6px; border-radius:4px;">&lt;head&gt;</code> : Bagian yang berisi informasi meta tentang dokumen, seperti judul dokumen.</p>
+      <p class="section-text"><code style="background:#f3f4f6; padding:2px 6px; border-radius:4px;">&lt;title&gt;</code> : Ini adalah judul halaman yang ditampilkan pada tab browser.</p>
+      <p class="section-text"><code style="background:#f3f4f6; padding:2px 6px; border-radius:4px;">&lt;body&gt;</code> : Bagian berisi konten yang akan ditampilkan di halaman web.</p>
+    </div>
+  </main>
+  <div class="detail-spacer"></div>
+
+  <footer>
+    <div class="container-fluid px-4 d-flex align-items-center justify-content-between flex-wrap gap-3">
+      <div>
+        <div class="footer-brand">TRR Page </div>
+        <div class="footer-copy">© 2024 ThoriqRasyaRijal. All rights reserved.</div>
+      </div>
+      <div class="d-flex gap-4 flex-wrap">
+        <a href="#" class="footer-link">About Us</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

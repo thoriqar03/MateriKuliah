@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TRR Page - CSS </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+ 
+  <nav class="navbar navbar-custom sticky-top bg-white">
+<div class="container-fluid px-4 d-flex align-items-center justify-content-between">
+<div class="d-flex align-items-center gap-4">
+<a href="index.html" class="brand">TRR Page</a>
+<div class="d-flex gap-3">
+<a href="index.html" class="nav-link active">Home</a>
+<a href="detail.html" class="nav-link active">Materi</a>
+</div>
+</div>
+<a href="#" onclick="return false;" title="Download" style="display:flex;align-items:center;color:#3949ab;opacity:0.75;transition:opacity 0.2s;" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.75'">
+  <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 3v13M7 11l5 5 5-5"/><path d="M5 21h14"/>
+  </svg>
+</a>
+</div>
+</nav>
+
+
+<main>
+<div class="container-fluid px-4 detail-main">
+
+      <div class="breadcrumb-custom">
+        <a href="index.html">Materi Kuliah</a>
+        <svg width="14" height="14" fill="none" stroke="#9ca3af" stroke-width="2" viewBox="0 0 24 24">
+          <polyline points="9 18 15 12 9 6"/>
+        </svg>
+        <span class="breadcrumb-current">CSS</span>
+      </div>
+
+    
+      <h1 class="detail-title">CSS</h1>
+
+      
+      <div class="section-title">Deskripsi Materi</div>
+      <p class="section-text">CSS (Cascading Style Sheets) adalah bahasa yang digunakan untuk menentukan bagaimana dokumen disajikan kepada pengguna. Dalam hal ini mengatur tentang bagaimana gaya, tata letak, dan sebagainya. 
+      </p>
+      <p class="section-text">Dengan CSS, kamu bisa mengatur warna teks, huruf, jarak antar paragraf, lebar kolom, gambar latar belakang hingga desain tata letak. 
+      </p>
+      <p class="section-text">Cascading Style Sheets mudah dipelajari dan dipahami tetapi memberikan kendali yang kuat atas tampilan sebuah dokumen HTML. Biasanya, bahasa pemrograman ini digabungkan dengan bahasa markup HTML.
+      </p>
+
+      <p class="section-text">CSS bukanlah bahasa pemrograman. CSS adalah bahasa style sheet yang dirancang untuk memungkinkan pemisahan antara presentasi dan konten, sehingga memungkinkan beberapa halaman website menggunakan kode CSS yang sama, namun menampilkan tampilan yang berbeda, sesuai kode yang telah dibuat.</p>
+
+      <p class="section-text">Selain itu, CSS bisa digunakan bersama dengan bahasa markup, seperti HTML, XHTML, XML biasa, SVG, dan XUL. Masih ingat kan, dengan apa itu HTML?</p>
+
+      <p class="section-text">Beberapa hal yang perlu Anda ketahui tentang CSS adalah sebagai berikut:</p>
+      <p class="section-text">- CSS adalah aturan yang digunakan untuk menampilkan elemen atau tag HTML dan bahasa markup.</p>
+      <p class="section-text">- Script CSS dibuat terpisah dari HTML.</p>
+      <p class="section-text">- CSS bertujuan untuk memisahkan konten dan style yang akan digunakan.</p>
+      <p class="section-text">- 1 file CSS dapat digunakan untuk banyak halaman HTML.</p>
+      <p class="section-text">- 1 Halaman HTML, dapat terlihat berbeda tergantung dari isi code yang ada di CSS.</p>
+
+      <div class="section-title">Fungsi CSS</div>
+      <p class="section-text">Setelah mengetahui pengertian CSS, selanjutnya mari kita mempelajari fungsi CSS. Seperti yang dijelaskan sebelumnya, fungsi CSS adalah untuk mengatur tampilan halaman website yang menggunakan bahasa markup agar memiliki tampilan dan tata letak yang menarik. Selain fungsi tersebut, CSS juga memiliki beberapa fungsi lainnya. Ada apa saja?</p>
+
+      <p class="section-text"><strong>1. Mempercepat Loading Halaman Website</strong><br>
+      Tahukah Anda bahwa salah satu fungsi CSS adalah untuk mempercepat loading halaman? Satu rangkaian code CSS bisa digunakan untuk banyak halaman website sekaligus. Dengan meminimalkan penulisan code berulang, loading halaman website bisa menjadi jauh lebih cepat.</p>
+
+      <p class="section-text"><strong>2. Memudahkan Pengelolaan Kode Program</strong><br>
+      Fungsi CSS yang kedua adalah untuk memudahkan pengelolaan kode program. CSS ditulis terpisah dari file HTML. Jika halaman HTML menggunakan file CSS yang sama, maka Anda dapat melakukan perubahan di beberapa atau bahkan semua halaman websites secara mudah, dengan mengubah file CSS-nya saja.</p>
+
+      <p class="section-text"><strong>3. Memberikan Variasi pada Tampilan Halaman Website</strong><br>
+      Selain membuat tampilan website menjadi lebih menarik, fungsi lain dari CSS adalah memberi variasi tampilan halaman website. CSS mendukung berbagai property yang dapat Anda gunakan untuk mengatur tampilan website. Dengan memanfaatkannya, Anda dapat membuat tampilan website yang lebih bervariasi. CSS terus berkembang dan memberikan kemudahan. Saat ini sudah ada Framework CSS yang bernama Bootstrap yang bisa Anda manfaatkan.</p>
+
+      <p class="section-text"><strong>4. Membuat Halaman Website Tampil Rapi</strong><br>
+      Fungsi terakhir dari CSS adalah membuat halaman website tampil rapi di berbagai browser dan device. Anda tentu pernah melihat halaman website dengan tampilan yang kompatibel, baik di layar laptop maupun smartphone. Hal ini juga merupakan peran dari CSS, yang membuat halaman website lebih responsif.</p>
+
+      <div class="section-title">Cara Kerja</div>
+      <p class="section-text">CSS bekerja dengan memberikan efek pada tag HTML yang menggunakan elemen seperti pada code CSS. Misalnya, pada contoh code External CSS di atas, terlihat style.css mendeklarasikan pada tag <code style="background:#f3f4f6; padding:2px 6px; border-radius:4px;">&lt;body&gt;</code> dengan mengganti warna background menjadi biru.</p>
+
+      <p class="section-text">Selanjutnya, pada tag <code style="background:#f3f4f6; padding:2px 6px; border-radius:4px;">&lt;p&gt;</code>, atau paragraf, akan membuat ukuran tulisan 20px dan warna tulisan putih.</p>
+
+      <p class="section-text">Kemudian, bila ingin mengganti warna teks cukup mengetikkan tag <code style="background:#f3f4f6; padding:2px 6px; border-radius:4px;">&lt;span&gt;</code> tanpa harus menulis ulang kembali perintah. Inilah mengapa CSS disebut-sebut dapat menghemat waktu pemilik web dengan perintah-perintah yang lebih efisien.</p>
+
+      <p class="section-text">Lebih lanjut, CSS bekerja saat browser memuat halaman website. Proses pengaturan tampilan HTML yang telah ditentukan dengan kode CSS ada beberapa langkah. Pertama, browser akan memuat file HTML dan CSS. Selanjutnya, browser mengubah keduanya menjadi document object model (DOM) yang merupakan komponen yang mewakili file HTML dan CSS dalam memori perangkat pengunjung website.</p>
+
+      <p class="section-text">Setelah itu, browser akan melakukan rendering, yakni di mana browser menerapkan pengaturan di kode CSS pada elemen-elemen HTML sehingga menghasilkan tampilan HTML yang maksimal pada layar pengunjung website.</p>
+    </div>
+  </main>
+  <div class="detail-spacer"></div>
+
+  <footer>
+    <div class="container-fluid px-4 d-flex align-items-center justify-content-between flex-wrap gap-3">
+      <div>
+        <div class="footer-brand">TRR Page </div>
+        <div class="footer-copy">© 2024 ThoriqRasyaRijal. All rights reserved.</div>
+      </div>
+      <div class="d-flex gap-4 flex-wrap">
+        <a href="#" class="footer-link">About Us</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
